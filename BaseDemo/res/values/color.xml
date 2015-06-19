@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="normal_press">#30ffffff</color>
+    <color name="normal_press2">#30000000</color>
+    <color name="common_bg">#303030</color>
+    <color name="common_top_bar_bg">#303030</color>
+    <color name="common_text">#077dff</color>
+    <color name="left_menu_bg">#333333</color>
+    <color name="left_menu_item_press">#222222</color>
+    <color name="left_menu_line">#111111</color>
+    <color name="left_menu_line2">#444444</color>
+    <color name="left_menu_text">#999999</color>
+    <color name="dialog_line">#7f7f7f</color>
+    <color name="pull_to_refresh_header">#353535</color>
+</resources>
