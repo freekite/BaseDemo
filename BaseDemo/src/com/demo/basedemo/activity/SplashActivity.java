@@ -19,7 +19,8 @@ public class SplashActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
 		setContentView(R.layout.activity_splash);
-
+		initSystemBar(R.color.common_top_bar_bg);
+		
 		tv_version = (TextView) findViewById(R.id.tv_version);
 
 		init();

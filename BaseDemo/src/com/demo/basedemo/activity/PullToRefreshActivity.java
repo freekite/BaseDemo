@@ -34,6 +34,7 @@ public class PullToRefreshActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
 		setContentView(R.layout.activity_pull_to_refresh);
+		initSystemBar(R.color.common_top_bar_bg);
 
 		initView();
 	}
@@ -55,6 +56,7 @@ public class PullToRefreshActivity extends BaseActivity {
 			}
 		});
 		mPtrFrameLayout.setLastUpdateTimeRelateObject(true);
+		mPtrFrameLayout.setBackgroundResource(R.color.pull_to_refresh_header);
 
 		mListView = (ListView) findViewById(R.id.load_more_small_image_list_view);
 		// header place holder

@@ -22,6 +22,8 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		initSystemBar(R.color.common_top_bar_bg);
+		
 		registerMainReceiver();
 	}
 

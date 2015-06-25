@@ -1,14 +1,9 @@
 package com.demo.basedemo.utils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.os.Build;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
 public class AppUtil {
 
@@ -43,21 +38,4 @@ public class AppUtil {
 		}
 		return null;
 	}
-
-	/**
-	 * 设置为4.4的沉浸式状态栏
-	 * 
-	 * @param activity
-	 *            当前Activity对象
-	 * @param root
-	 *            当前布局文件中的根view，此view背景色应该与状态栏背景色相同
-	 */
-	public static void setchenjin(Activity activity) {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-		    Window window = activity.getWindow();
-		    window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
-		    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-		}
-	}
-
 }
