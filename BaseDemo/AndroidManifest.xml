@@ -34,6 +34,9 @@
             android:name=".activity.MainActivity"
             android:launchMode="singleTask"
             android:theme="@style/horizontal_slide" />
+        <activity
+            android:name=".activity.PullToRefreshActivity"
+            android:theme="@style/horizontal_slide" />
     </application>
 
 </manifest>

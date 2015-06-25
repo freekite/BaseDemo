@@ -39,9 +39,10 @@ public class NetUtil {
 	 */
 	public static boolean isWifi(Context context) {
 		ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-		if (cm == null)
+		if (cm == null || cm.getActiveNetworkInfo() == null)
 			return false;
-		return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI;
+		else
+			return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI;
 
 	}
 
@@ -50,9 +51,10 @@ public class NetUtil {
 	 */
 	public static boolean isMobile(Context context) {
 		ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-		if (cm == null)
+		if (cm == null || cm.getActiveNetworkInfo() == null)
 			return false;
-		return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_MOBILE;
+		else
+			return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_MOBILE;
 
 	}
 
@@ -73,7 +75,7 @@ public class NetUtil {
 	 */
 	public static int getNetType(Context context) {
 		ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-		if (cm == null)
+		if (cm == null || cm.getActiveNetworkInfo() == null)
 			return -1;
 		else
 			return cm.getActiveNetworkInfo().getType();

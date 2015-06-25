@@ -48,7 +48,7 @@ public class MainReceiver extends BroadcastReceiver {
 			incomingFlag=false;
 			String phoneNumber = intent.getStringExtra(Intent.EXTRA_PHONE_NUMBER);
 			ToastUtil.toast(context, "正在拨打电话"+phoneNumber);
-		}else if(intent.getAction().equals(SMS_RECEIVED_ACTION)){//
+		}else if(intent.getAction().equals(SMS_RECEIVED_ACTION)){//收到短信
             Bundle bundle = intent.getExtras();
             if (bundle != null) {
                 Object[] myOBJpdus = (Object[]) bundle.get("pdus");

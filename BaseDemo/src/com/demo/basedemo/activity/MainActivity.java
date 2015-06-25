@@ -4,14 +4,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.renderscript.RenderScript.Priority;
 import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.demo.basedemo.R;
 import com.demo.basedemo.base.BaseActivity;
 import com.demo.basedemo.receiver.MainReceiver;
-import com.demo.basedemo.utils.DialogUtil;
 import com.demo.basedemo.utils.ToastUtil;
 import com.demo.basedemo.widget.MessageDialog.MessageCallBack;
 import com.demo.basedemo.widget.PicturePickerDialog.PicturePickerCallBack;
@@ -78,6 +76,9 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 					});
 				}
 			}).start();
+			break;
+		case R.id.btn_pull_to_refresh:
+			startActivity(new Intent(MainActivity.this, PullToRefreshActivity.class));
 			break;
 		}
 	}
