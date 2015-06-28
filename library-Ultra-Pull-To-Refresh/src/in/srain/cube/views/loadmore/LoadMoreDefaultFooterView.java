@@ -4,12 +4,14 @@ import in.srain.cube.views.ptr.R;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class LoadMoreDefaultFooterView extends RelativeLayout implements LoadMoreUIHandler {
 
     private TextView mTextView;
+    private ProgressBar pb_load_more;
 
     public LoadMoreDefaultFooterView(Context context) {
         this(context, null);
@@ -27,6 +29,7 @@ public class LoadMoreDefaultFooterView extends RelativeLayout implements LoadMor
     private void setupViews() {
         LayoutInflater.from(getContext()).inflate(R.layout.cube_views_load_more_default_footer, this);
         mTextView = (TextView) findViewById(R.id.cube_views_load_more_default_footer_text_view);
+        pb_load_more = (ProgressBar) findViewById(R.id.pb_load_more);
     }
 
     @Override
@@ -41,8 +44,10 @@ public class LoadMoreDefaultFooterView extends RelativeLayout implements LoadMor
             setVisibility(VISIBLE);
             if (empty) {
                 mTextView.setText(R.string.cube_views_load_more_loaded_empty);
+                pb_load_more.setVisibility(INVISIBLE);
             } else {
                 mTextView.setText(R.string.cube_views_load_more_loaded_no_more);
+                pb_load_more.setVisibility(INVISIBLE);
             }
         } else {
             setVisibility(INVISIBLE);
@@ -53,6 +58,7 @@ public class LoadMoreDefaultFooterView extends RelativeLayout implements LoadMor
     public void onWaitToLoadMore(LoadMoreContainer container) {
         setVisibility(VISIBLE);
         mTextView.setText(R.string.cube_views_load_more_click_to_load_more);
+        pb_load_more.setVisibility(VISIBLE);
     }
 
     @Override
