@@ -7,5 +7,21 @@
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
         <!-- API 11 theme customizations can go here. -->
     </style>
+    <!-- Activity theme. -->
+    <style name="MainTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+    <style name="DialogBottomStyle" parent="android:Theme.Holo.Light.Dialog">
+        <!-- <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item> -->
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
 
 </resources>

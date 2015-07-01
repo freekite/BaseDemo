@@ -32,12 +32,12 @@ public class BaseActivity extends FragmentActivity {
 	 * @param resId
 	 */
 	public void initSystemBar(int resId) {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+		/*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 			setTranslucentStatus(true);
 		}
 		tintManager = new SystemBarTintManager(this);
 		tintManager.setStatusBarTintEnabled(true);
-		tintManager.setStatusBarTintResource(resId);
+		tintManager.setStatusBarTintResource(resId);*/
 	}
 
 	@TargetApi(19)
