@@ -1,7 +1,6 @@
 package com.demo.basedemo.base;
 
 import android.annotation.TargetApi;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -9,13 +8,12 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.demo.basedemo.utils.DialogUtil;
-import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 public class BaseActivity extends FragmentActivity {
 
 	public DialogUtil dialogUtil;
 
-	protected SystemBarTintManager tintManager;
+//	protected SystemBarTintManager tintManager;
 
 	@Override
 	protected void onCreate(Bundle arg0) {

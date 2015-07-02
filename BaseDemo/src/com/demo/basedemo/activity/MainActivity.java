@@ -83,6 +83,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 			startActivity(new Intent(MainActivity.this, PullToRefreshActivity.class));
 			break;
 		case R.id.btn_slider_banner:
+			startActivity(new Intent(MainActivity.this, SliderBannerActivity.class));
 			break;
 		case R.id.btn_vedio:
 			startActivity(new Intent(MainActivity.this, VideoActivity.class));
