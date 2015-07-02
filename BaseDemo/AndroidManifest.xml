@@ -54,6 +54,9 @@
         <activity
             android:name=".activity.SliderBannerActivity"
             android:theme="@style/horizontal_slide" />
+        <activity
+            android:name=".activity.PullScrollViewActivity"
+            android:theme="@style/horizontal_slide" />
     </application>
 
 </manifest>

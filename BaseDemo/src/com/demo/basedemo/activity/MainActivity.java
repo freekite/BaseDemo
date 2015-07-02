@@ -88,6 +88,9 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		case R.id.btn_vedio:
 			startActivity(new Intent(MainActivity.this, VideoActivity.class));
 			break;
+		case R.id.btn_pullscrollview:
+			startActivity(new Intent(MainActivity.this, PullScrollViewActivity.class));
+			break;
 		}
 	}
 
