@@ -1,5 +1,7 @@
 ## BaseDemo简介
 * A android develop common demo.
+* 包含一些常用的安卓开发实例，可用于快速开发。
+
 
 ## 项目中所使用到的第三方类库介绍
 * appcompat
