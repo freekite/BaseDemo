@@ -17,34 +17,34 @@
 	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
 	> * https://github.com/MarkMjw/PullScrollView
 
-* library-PullToRefresh	
+* library-PullToRefresh
 	> * 下拉刷新ListView，已经停止维护并且有不少bug，不推荐使用
 	> * 项目地址：https://github.com/johannilsson/android-pulltorefresh
 
-* library-SlidingMenu	
+* library-SlidingMenu
 	> * 侧滑菜单支持左右
 	> * 项目地址：https://github.com/jfeinstein10/SlidingMenu
 
-* library-SwipeMenuListView	
+* library-SwipeMenuListView
 	> * 针对ListView item的侧滑菜单
 	> * 项目地址：https://github.com/baoyongzhang/SwipeMenuListView
 
-* library-SystemBarTint	
-	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
-	> * 项目地址：https://github.com/MarkMjw/PullScrollView
+* library-SystemBarTint
+	> * 沉浸式菜单栏
+	> * 项目地址：https://github.com/jgilfelt/SystemBarTint
 
-* library-Ultra-Pull-To-Refresh	
-	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
-	> * 项目地址：https://github.com/MarkMjw/PullScrollView
+* library-Ultra-Pull-To-Refresh
+	> * 下拉刷新，推荐使用
+	> * 项目地址：https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh
 
-* library-VitamioBundle	
-	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
-	> * 项目地址：https://github.com/MarkMjw/PullScrollView
+* library-VitamioBundle
+	> * 是一款Android与iOS平台上的全能多媒体开发框架
+	> * 项目地址：https://github.com/yixia/VitamioBundle
 
 * library-auto-scroll-view-pager	
-	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
-	> * 项目地址：https://github.com/MarkMjw/PullScrollView
+	> * Android自动滚动 轮播循环的ViewPager
+	> * 项目地址：https://github.com/Trinea/android-auto-scroll-view-pager
 
 * library-xUtils
-	> * 仿照新浪微博Android客户端个人中心的ScrollView，下拉背景伸缩回弹效果
-	> * 项目地址：https://github.com/MarkMjw/PullScrollView
+	> * 基于Afinal的一个android的ioc，orm框架
+	> * 项目地址：https://github.com/wyouflf/xUtils
