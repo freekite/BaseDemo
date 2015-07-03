@@ -50,3 +50,8 @@
 * library-xUtils
 	> * 基于Afinal的一个android的ioc，orm框架
 	> * 项目地址：https://github.com/wyouflf/xUtils
+----
+# 关于作者
+* Email： <freekiteyu@qq.com>
+* 微博：http://weibo.com/freekitebo
+* 有任何建议或者使用中遇到问题都可以给我发邮件，或者微博私信给我o_O
