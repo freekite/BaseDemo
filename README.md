@@ -7,8 +7,9 @@
 * library-CircularFloatingActionMenu
   > * 一个圆形菜单的效果
   > * 项目地址：https://github.com/oguzbilgener/CircularFloatingActionMenu
-
-* library-InfiniteIndicator	
+* library-InfiniteIndicator
+  > * 一个slider banner滚动广告栏的类库
+  > * 项目地址：https://github.com/lightSky/InfiniteIndicator
 * library-PullScrollView
 * library-PullToRefresh	
 * library-SlidingMenu	
